@@ -189,7 +189,7 @@ public class ContactUtils {
                     }
                 }
             }
-        } else {
+        } else if (allContactsList != null) {
             for (SortModel contact : allContactsList) {
                 if (contact.number != null && contact.name != null) {
                     //姓名全匹配,姓名首字母简拼匹配,姓名全字母匹配
